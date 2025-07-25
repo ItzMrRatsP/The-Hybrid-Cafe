@@ -1,0 +1,23 @@
+{
+  "name": "The-Hybrid-Cafe",
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedStorage": {
+      "$path": "src/shared/client"
+    },
+    "ServerScriptService": {
+      "$path": "src/server"
+    },
+    "ServerStorage": {
+      "$path": "src/shared/server"
+    },
+    "StarterGui": {
+      "$path": "src/client/gui"
+    },
+    "StarterPlayer": {
+      "StarterPlayerScripts": {
+        "$path": "src/client/player"
+      }
+    }
+  }
+}

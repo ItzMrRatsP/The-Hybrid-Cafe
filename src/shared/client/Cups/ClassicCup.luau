@@ -1,0 +1,25 @@
+local info = {}
+
+info.DisplayName = "Classic Cup"
+info.Description = "The Original Coffee Cup."
+info.Image = "rbxassetid://83939595706526"
+info.Unlisted = false
+info.CanPurchase = false
+
+info.Price = nil
+
+info.Premium = false
+info.ProductID = nil
+info.PurchaseDeadline = nil -- In os.time() format
+
+info.Model = script:FindFirstChildWhichIsA("Model")
+
+-- MetaData
+info.DateCreated = os.time({
+	year = 2025;
+	month = 2;
+	day = 20;
+})
+info.CreatorName = "real_haemster"
+
+return info
